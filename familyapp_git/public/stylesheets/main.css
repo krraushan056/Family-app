@@ -1,0 +1,57 @@
+/* _navbar.scss:42 */
+#bold{
+	color:red;
+	 font-size: 134.5%;
+}
+.navbar-brand {
+  display: inline-block;
+  padding-top: $navbar-brand-padding-y;
+  padding-bottom: $navbar-brand-padding-y;
+  margin-right: $navbar-padding-x;
+  font-size: $navbar-brand-font-size;
+  line-height: inherit;
+  white-space: nowrap;
+
+  @include hover-focus {
+    text-decoration: none;
+  }
+}
+
+/* _navbar.scss:199 */
+.navbar-brand {
+  color: $navbar-light-active-color;
+
+  @include hover-focus {
+    color: $navbar-light-active-color;
+  }
+}
+
+/* _navbar.scss:251 */
+.navbar-brand {
+  color: $navbar-dark-active-color;
+
+  @include hover-focus {
+    color: $navbar-dark-active-color;
+  }
+}
+.jumbotron{
+	background-color:#AD5D5D;
+}
+body{
+	background-color:#EADEDB;
+}
+
+.thumbnail img{
+	width:100%;
+}
+.thumbnail{
+	padding:0;
+}
+
+.thumbnail .caption-full{
+	padding:9px;
+}
+
+#deleteform{
+	display: inline;
+}
